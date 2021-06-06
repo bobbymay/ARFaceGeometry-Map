@@ -1,7 +1,7 @@
 import SceneKit
 
 
-class Node: SCNNode {
+final class Node: SCNNode {
  required init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
  
 
