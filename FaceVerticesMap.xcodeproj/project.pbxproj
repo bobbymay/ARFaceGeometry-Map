@@ -43,6 +43,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3A47CF2932416800CFAF81 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1D80820E238B0AD60001C579 /* AppDelegate.swift */,
+				1D808210238B0AD60001C579 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		1D3A47D02932417D00CFAF81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D808212238B0AD60001C579 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D3A47D12932420B00CFAF81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D808219238B0AD60001C579 /* LaunchScreen.storyboard */,
+				1D808214238B0AD60001C579 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D3A47D2293242CB00CFAF81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D808222238B0B5A0001C579 /* Node.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1D808202238B0AD60001C579 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +98,11 @@
 		1D80820D238B0AD60001C579 /* FaceVerticesMap */ = {
 			isa = PBXGroup;
 			children = (
-				1D80820E238B0AD60001C579 /* AppDelegate.swift */,
-				1D808210238B0AD60001C579 /* SceneDelegate.swift */,
-				1D808212238B0AD60001C579 /* ViewController.swift */,
-				1D808222238B0B5A0001C579 /* Node.swift */,
-				1D808214238B0AD60001C579 /* Main.storyboard */,
+				1D3A47CF2932416800CFAF81 /* Delegates */,
+				1D3A47D2293242CB00CFAF81 /* Model */,
+				1D3A47D02932417D00CFAF81 /* Controllers */,
+				1D3A47D12932420B00CFAF81 /* Views */,
 				1D808217238B0AD60001C579 /* Assets.xcassets */,
-				1D808219238B0AD60001C579 /* LaunchScreen.storyboard */,
 				1D80821C238B0AD60001C579 /* Info.plist */,
 			);
 			path = FaceVerticesMap;
@@ -103,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Bobby May";
 				TargetAttributes = {
 					1D80820A238B0AD60001C579 = {
@@ -204,6 +236,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -264,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
